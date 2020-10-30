@@ -1,0 +1,17 @@
+body{
+    background-image: url("../img/body.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.form-l{
+	margin-top: 10%;
+	background-color: #FFFFFF;
+
+}
+.form-l form{
+	margin-left: 4%;
+	margin-right: 4%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}

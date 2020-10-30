@@ -1,0 +1,172 @@
+
+.container{
+    display: flex;
+    
+}
+
+/* Board */
+.grid-user{
+    width: 400px;
+    height: 440px;
+    display: flex;
+    flex-wrap:wrap;
+    background-color: blue;
+    margin: 20px;
+}
+.grid-computer{
+    width: 400px;
+    height: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblack;
+    margin: 20px;
+}
+.grid-computer div{
+    width: 40px;
+    height: 40px;
+    border: solid black 1px;
+    background-image: url("../img/board.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+/* Hit and miss  */
+.pc{
+    width: 40px;
+    height: 40px;
+    border: solid black 1px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   background-image:  url("../img/fire.gif");
+   }
+   .pc1{
+    width: 40px;
+    height: 40px;
+    border: solid black 1px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   background-image:  url("../img/sea.jpg");
+   }
+.grid-user div{
+    width: 40px;
+    height: 40px;
+    border: solid black 1px;
+
+}
+.clicked{
+    pointer-events: none;
+    cursor: default;
+}
+/* Place des bateau */
+.grid-display{
+    
+    width: 400px;
+    height: 440px;
+    background-color: blue;
+    margin: 20px;
+}
+/* Les bateaux */
+.destroyer-container{
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+}
+.destroyer-container-vertical{
+    width: 40px;
+    height: 80px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.submarine-container{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+}
+.submarine-container-vertical{
+    width: 40px;
+    height: 120px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cruiser-container{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+}
+.cruiser-container-vertical{
+    width: 40px;
+    height: 120px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.battelship-container{
+    width: 160px;
+    height: 40px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+}
+.battelship-container-vertical{
+    width: 40px;
+    height: 160px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.carrier-container{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+}
+.carrier-container-vertical{
+    width: 40px;
+    height: 200px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ship div{
+    width: 40px;
+    height: 40px;
+
+}
+.destroyer{
+    background-color: black;
+}
+.carrier{
+    background-color: black;
+}
+.battelship{
+    background-color: black;
+}
+.cruiser{
+    background-color: black;
+}
+.submarine{
+    background-color: black;
+}
+/* Whose turn is it  */
+#whoseTurn{
+    color: blue;
+    text-align: center;
+    margin: 15px;
+}
